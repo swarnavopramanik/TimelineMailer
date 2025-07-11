@@ -35,8 +35,8 @@ This project is a PHP-based email verification system where users register using
 
 ### 3️⃣ **GitHub Timeline Fetch**
 - Every 5 minutes, a CRON job should:
-  - Fetch data from `https://www.github.com/timeline`
-  - Format it as **HTML (not JSON)**.
-  - Send it via email to all registered users.
+- Fetch data from `https://www.github.com/timeline`
+- Format it as **HTML (not JSON)**.
+- Send it via email to all registered users.
 
 ---
