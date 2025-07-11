@@ -4,15 +4,8 @@ This project is a PHP-based email verification system where users register using
 
 ---
 
-## 🚀 Your Task
+## 🚀 Task
 
-Your objective is to implement the functionality in the **src/** directory while following these rules:
-
-✅ **DO NOT** change function names or modify the file structure.  
-
-✅ **DO NOT** modify anything outside the **src/** folder. You can add additional files if required inside **src** folder. 
-
-✅ **DO NOT** hardcode emails; use `registered_emails.txt` as the database.  
 
 ✅ Implement all required functions in `functions.php`.  
 
@@ -25,35 +18,8 @@ Your objective is to implement the functionality in the **src/** directory while
 ✅ Implement `unsubscribe.php` to handle email unsubscription.
 
 ---
-## 📝 Submission Steps [ Non adherence to this will cause disqualification ]
-1. **Clone** the repository to your local machine.  ⚠️ Do not **Fork** the repo to your personal profile.
-2. **Create a new branch** from the `main` branch. **Do not** push code directly to `main`.  
-3. **Implement** the required features inside the `src/` directory.  
-4. **Push** your code to your **branch** (not `main`).  
-5. **Raise a Pull Request (PR) only once** against the `main` branch when all your code is finalized.  
-   - **Do not raise multiple PRs.**  
-   - **Do not add multiple commits to a PR after submission.**  
-   - **Do not raise the PR from a Forked repo against this repo**
-6. **Failure to follow these instructions will result in disqualification.**  
-7. **Wait** for your submission to be reviewed. Do not merge the PR.
 
----
-
-## ⚠️ Important Notes
-
-All form elements should always be visible on the page and should not be conditionally rendered. This ensures the assignment can be tested properly at the appropriate steps.
-
-Please ensure that if the base repository shows the original template repo, update it so that your repo's main branch is set as the base branch.
-
-You do not have to publically host the application. Add the screenshots and videos of local testing to PR description.
-
-You can use [Mailpit](https://mailpit.axllent.org/) for local testing of email functionality.
-
-**Recommended PHP version: 8.3**
-
----
-
-## 📌 Features to Implement
+## 📌 Implement all Features 
 
 ### 1️⃣ **Email Verification**
 - Users enter their email in a form.
@@ -76,41 +42,6 @@ You can use [Mailpit](https://mailpit.axllent.org/) for local testing of email f
 
 ---
 
-## 📜 File Details & Function Stubs
-
-You **must** implement the following functions inside `functions.php`:
-
-```php
-function generateVerificationCode() {
-    // Generate and return a 6-digit numeric code
-}
-
-function registerEmail($email) {
-    $file = __DIR__ . '/registered_emails.txt';
-    // Save verified email to registered_emails.txt
-}
-
-function unsubscribeEmail($email) {
-    $file = __DIR__ . '/registered_emails.txt';
-    // Remove email from registered_emails.txt
-}
-
-function sendVerificationEmail($email, $code) {
-    // Send an email containing the verification code
-}
-
-function fetchGitHubTimeline() {
-    // Fetch latest data from https://www.github.com/timeline
-}
-
-function formatGitHubData($data) {
-    // Convert fetched data into formatted HTML
-}
-
-function sendGitHubUpdatesToSubscribers() {
-    $file = __DIR__ . '/registered_emails.txt';
-    // Send formatted GitHub timeline to registered users
-}
 ```
 ## 🔄 CRON Job Implementation
 
