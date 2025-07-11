@@ -3,6 +3,12 @@ This project is a PHP-based email verification system where users register using
 
 ---
 
+![email](https://github.com/user-attachments/assets/bf16f347-49a4-4bd9-9977-bf8041cbaad3)
+
+## Project Demo 
+
+- [Video](https://vimeo.com/1097250835)
+
 ## 🚀 Task
 
 
